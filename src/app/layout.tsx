@@ -1,7 +1,7 @@
-import "./globals.css";
+import './globals.css';
 
-import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import type { Metadata } from 'next';
+import { Inter } from 'next/font/google';
 
 const inter = Inter({
   weight: ['300', '400', '500', '600', '700'],
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     title: 'Ponto Já',
     description: 'Seu negócio com um programa de fidelidade em menos de 2 minutos',
     type: 'website',
-    url: 'https://pontoja.netlify.app/',
+    url: '', //TODO: set an url
     images: 'https://pontoja.s3.amazonaws.com/gift.png',
   },
 };
