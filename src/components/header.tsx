@@ -29,7 +29,9 @@ export const Header = () => {
       </Link>
 
       <nav className="mr-auto flex items-center gap-8 max-[850px]:hidden">
-        <Link href="/#benefício" className="font-inter font-medium text-sm text-gray-700">
+        <Link
+          href="/#benefícios"
+          className="font-inter font-medium text-sm text-gray-700">
           Benefícios
         </Link>
         <Link
@@ -70,7 +72,7 @@ export const Header = () => {
             </MenubarTrigger>
             <MenubarContent className="border p-1 mr-5 -mt-2">
               <MenubarItem className="focus:bg-violet-200 hover:bg-violet-200 font-inter font-medium text-sm text-gray-700 flex items-center gap-2">
-                <Link href="/#benefício">Benefícios</Link>
+                <Link href="/#benefícios">Benefícios</Link>
               </MenubarItem>
               <MenubarItem className="focus:bg-violet-200 hover:bg-violet-200 font-inter font-medium text-sm text-gray-700 flex items-center gap-2">
                 <Link href="/#como-funciona?">Como funciona?</Link>
