@@ -1,3 +1,4 @@
+import { CTAToWebsite } from './cta-to-website';
 import { HowItWorksStep } from './how-it-works-step';
 
 export const HowItWorks = () => {
@@ -7,7 +8,7 @@ export const HowItWorks = () => {
         Como funciona?
       </h2>
 
-      <div className="w-fit grid grid-cols-3 items-start mx-auto mt-8 max-[1200px]:grid-cols-2 max-[750px]:grid-cols-1 max-[750px]:gap-y-7">
+      <div className="w-fit grid grid-cols-3 items-start mt-8 mx-auto max-[1200px]:grid-cols-2 max-[750px]:grid-cols-1 max-[750px]:gap-y-7">
         <HowItWorksStep
           title="1. Crie o Programa"
           description="Crie seu programa de pontos em menos de 2 minutos na nossa plataforma."
@@ -21,6 +22,11 @@ export const HowItWorks = () => {
           description="Recompense os clientes em troca dos pontos acumulados por eles. Faça seus clientes se sentirem especiais."
         />
       </div>
+
+      <CTAToWebsite
+        title="Quero usar no meu negócio"
+        className="bg-[#d41d4c] mb-5 mt-10"
+      />
     </section>
   );
 };

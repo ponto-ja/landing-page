@@ -1,5 +1,6 @@
 import { Gauge, Gem, PartyPopper, Rocket, TrendingUp, Users } from 'lucide-react';
 import { BenefitCard } from './benefit-card';
+import { CTAToWebsite } from './cta-to-website';
 
 export const Benefits = () => {
   return (
@@ -42,6 +43,11 @@ export const Benefits = () => {
           description="Um programa de pontos eficiente evidencia o valor que você atribui aos seus clientes, reforçando sua reputação e imagem no mercado."
         />
       </div>
+
+      <CTAToWebsite
+        title="Quero fidelizar meus clientes"
+        className="bg-[#FFFF] mb-5 mt-10 text-violet-900"
+      />
     </section>
   );
 };
