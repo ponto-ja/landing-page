@@ -1,9 +1,7 @@
 'use client';
 
-import Link from 'next/link';
 import { TypeAnimation } from 'react-type-animation';
-
-const websiteBaseURL = process.env.NEXT_PUBLIC_WEBSITE_URL as string;
+import { CTAToWebsite } from './cta-to-website';
 
 export const Hero = () => {
   return (
@@ -43,13 +41,7 @@ export const Hero = () => {
         negócio.{' '}
       </p>
 
-      <Link
-        href={websiteBaseURL.concat('/dono-de-negocio/criar-conta')}
-        className="bg-violet-900 text-white font-inter font-normal text-base rounded-md py-2 px-3 hover:opacity-80 transition-opacity duration-300 mx-auto block w-fit mt-12"
-        target="_blank"
-        rel="no-referrer">
-        Criar programa de fidelidade grátis
-      </Link>
+      <CTAToWebsite title="Criar programa de fidelidade grátis" />
     </section>
   );
 };
