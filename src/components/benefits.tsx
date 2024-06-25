@@ -8,7 +8,7 @@ export const Benefits = () => {
         Benefícios para seu negócio
       </h2>
 
-      <div className="w-fit grid grid-cols-3 items-start gap-y-5 mx-auto mt-10 max-[1200px]:grid-cols-2 max-[750px]:grid-cols-1 max-[750px]:gap-y-0">
+      <div className="w-fit grid grid-cols-3 items-start gap-y-5 mx-auto mt-8 max-[1200px]:grid-cols-2 max-[750px]:grid-cols-1 max-[750px]:gap-y-0">
         <BenefitCard
           icon={Gauge}
           title="Economia de Tempo e Dinheiro"
