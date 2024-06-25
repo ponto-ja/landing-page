@@ -11,9 +11,9 @@ import {
 } from './ui/menubar';
 import { Menu } from 'lucide-react';
 
-export const Header = () => {
-  const websiteBaseURL = process.env.WEBSITE_URL as string;
+const websiteBaseURL = process.env.NEXT_PUBLIC_WEBSITE_URL as string;
 
+export const Header = () => {
   return (
     <header className="max-w-[1500px] w-full mx-auto pt-4 flex items-center justify-between px-4">
       <Link href="/" className="relative mr-14 max-[900px]:mr-8">
