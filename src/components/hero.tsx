@@ -7,7 +7,7 @@ const websiteBaseURL = process.env.NEXT_PUBLIC_WEBSITE_URL as string;
 
 export const Hero = () => {
   return (
-    <section className="w-full mt-[80px] max-[767px]:mt-[50px]">
+    <section className="w-full mt-[80px] px-4 max-[767px]:mt-[50px]">
       <h2 className="font-inter text-4xl min-[420px]:text-3xl sm:text-5xl md:text-8xl text-center font-black text-violet-900 mb-16">
         Clientes felizes <span className="text-[#d41d4c]">aumentam</span>
         <TypeAnimation
@@ -36,7 +36,7 @@ export const Hero = () => {
         em menos de <span className="text-violet-900">2 minutos</span>
       </p>
 
-      <p className="font-inter max-w-[740px] mx-auto px-2 text-center font-normal text-[18px] text-gray-500 mt-8">
+      <p className="font-inter max-w-[740px] mx-auto text-center font-normal text-[18px] text-gray-500 mt-8">
         Forneça pontos para as compras dos seus clientes para eles acumularem e trocarem
         por recompensas. Faça seus clientes se sentirem especiais com recompensas que eles
         adoram. Crie fidelidade com seus clientes que se converterá em lucros para seu
