@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://ponto-ja.com/
+
+# Sitemaps
+Sitemap: https://ponto-ja.com/sitemap.xml
