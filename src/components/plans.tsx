@@ -12,7 +12,7 @@ export const Plans = () => {
       </p>
 
       <div className="w-fit grid grid-cols-3 items-start gap-5 mx-auto mt-10 mb-5 max-[980px]:grid-cols-1">
-        <div className="max-w-[440px] w-full p-4 flex flex-col bg-white rounded-md">
+        <div className="max-w-[460px] w-full p-4 flex flex-col bg-white rounded-md">
           <p className="font-inter font-bold text-2xl text-gray-700">Gratuito</p>
           <p className="font-inter font-bold text-4xl text-gray-600 mt-2 mb-4 line-through">
             R$ 59,90
@@ -52,21 +52,22 @@ export const Plans = () => {
           <CTAToWebsite title="Criar conta grátis" className="mt-6 w-full text-center" />
         </div>
 
-        <div className="max-w-[440px] w-full p-4 flex flex-col bg-white rounded-md relative">
-          <span className="absolute right-4 top-4 bg-[#d38c08] py-[6px] p-2 rounded-md text-white font-inter font-medium flex items-center gap-1 animate-bounce">
+        <div className="max-w-[460px] w-full p-4 flex flex-col bg-white rounded-md relative">
+          <span className="absolute right-4 top-4 bg-[#d38c08] py-[6px] p-2 rounded-md text-white font-inter font-medium flex items-center gap-1 animate-bounce shadow-md shadow-gray-400">
             <Zap size={20} strokeWidth={2.2} />
             Mais popular
           </span>
 
           <p className="font-inter font-bold text-2xl text-gray-700">Anual</p>
-          <p className="font-inter font-bold text-4xl text-gray-600 mt-2 mb-4 max-[1332px]:mb-0">
-            R$ 49,90{' '}
-            <span className="font-semibold text-sm text-[#d41d4c] max-[1332px]:hidden">
-              (Desconto de R$ 120,00 ao ano)
+          <p className="font-inter font-bold text-4xl text-gray-600 mt-2 mb-4 max-[1430px]:mb-0">
+            R$ 49,90<span className="text-gray-500 font-semibold text-sm">/mês</span>
+            <span className="font-semibold text-sm text-[#d41d4c] max-[1430px]:hidden">
+              {' '}
+              *Desconto de R$ 120,00 ao ano*
             </span>
           </p>
-          <p className="font-semibold text-sm text-[#d41d4c] hidden max-[1332px]:block mb-3">
-            (Desconto de R$ 120,00 ao ano)
+          <p className="font-semibold text-sm text-[#d41d4c] hidden max-[1430px]:block mb-3">
+            *Desconto de R$ 120,00 ao ano*
           </p>
           <ul className="flex flex-col gap-2">
             <li className="flex items-center gap-1">
@@ -103,10 +104,11 @@ export const Plans = () => {
           <CTAToWebsite title="Escolher plano" className="mt-6 w-full text-center" />
         </div>
 
-        <div className="max-w-[440px] w-full p-4 flex flex-col bg-white rounded-md">
+        <div className="max-w-[460px] w-full p-4 flex flex-col bg-white rounded-md">
           <p className="font-inter font-bold text-2xl text-gray-700">Mensal</p>
           <p className="font-inter font-bold text-4xl text-gray-600 mt-2 mb-4">
             R$ 59,90
+            <span className="font-semibold text-sm text-gray-500">/mês</span>
           </p>
           <ul className="flex flex-col gap-2">
             <li className="flex items-center gap-1">
