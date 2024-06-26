@@ -11,7 +11,7 @@ export const Plans = () => {
         Sem multas ou tempo mínimo. Cancele a qualquer momento.
       </p>
 
-      <div className="w-fit grid grid-cols-3 items-start gap-5 mx-auto mt-10 mb-5 max-[1200px]:grid-cols-2 max-[750px]:grid-cols-1 max-[750px]:gap-y-0">
+      <div className="w-fit grid grid-cols-3 items-start gap-5 mx-auto mt-10 mb-5 max-[980px]:grid-cols-1">
         <div className="max-w-[440px] w-full p-4 flex flex-col bg-white rounded-md">
           <p className="font-inter font-bold text-2xl text-gray-700">Gratuito</p>
           <p className="font-inter font-bold text-4xl text-gray-600 mt-2 mb-4 line-through">
@@ -59,11 +59,14 @@ export const Plans = () => {
           </span>
 
           <p className="font-inter font-bold text-2xl text-gray-700">Anual</p>
-          <p className="font-inter font-bold text-4xl text-gray-600 mt-2 mb-4">
+          <p className="font-inter font-bold text-4xl text-gray-600 mt-2 mb-4 max-[1332px]:mb-0">
             R$ 49,90{' '}
-            <span className="font-semibold text-sm text-[#d41d4c]">
+            <span className="font-semibold text-sm text-[#d41d4c] max-[1332px]:hidden">
               (Desconto de R$ 120,00 ao ano)
             </span>
+          </p>
+          <p className="font-semibold text-sm text-[#d41d4c] hidden max-[1332px]:block mb-3">
+            (Desconto de R$ 120,00 ao ano)
           </p>
           <ul className="flex flex-col gap-2">
             <li className="flex items-center gap-1">
