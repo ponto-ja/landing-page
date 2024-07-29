@@ -1,7 +1,9 @@
 'use client';
 
+import Image from 'next/image';
 import { TypeAnimation } from 'react-type-animation';
 import { CTAToWebsite } from './cta-to-website';
+import Mockup from '@/assets/images/mockup-pc.png';
 
 export const Hero = () => {
   return (
@@ -34,14 +36,22 @@ export const Hero = () => {
         em menos de <span className="text-violet-900">2 minutos</span>
       </p>
 
-      <p className="font-inter max-w-[740px] mx-auto text-center font-normal text-[18px] text-gray-500 mt-8">
+      <CTAToWebsite title="Criar programa de fidelidade grátis" className="mt-10 mb-8" />
+
+      <Image
+        src={Mockup.src}
+        width={1280}
+        height={100}
+        alt="mockup"
+        className="mx-auto max-[600px]:-mb-10"
+      />
+
+      {/* <p className="font-inter max-w-[740px] mx-auto text-center font-normal text-[18px] text-gray-500">
         Forneça pontos para as compras dos seus clientes para eles acumularem e trocarem
         por recompensas. Faça seus clientes se sentirem especiais com recompensas que eles
         adoram. Crie fidelidade com seus clientes que se converterá em lucros para seu
         negócio.{' '}
-      </p>
-
-      <CTAToWebsite title="Criar programa de fidelidade grátis" />
+      </p> */}
     </section>
   );
 };
