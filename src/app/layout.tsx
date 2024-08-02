@@ -33,6 +33,7 @@ export default function RootLayout({
   return (
     <html lang="pt-br" className={`${inter.variable} antialiased`}>
       <head>
+        <script src="https://fast.wistia.com/assets/external/E-v1.js" async />
         <script
           type="text/javascript"
           dangerouslySetInnerHTML={{
